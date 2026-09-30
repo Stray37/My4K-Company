@@ -1,0 +1,60 @@
+# Query: my4k
+# ContextLines: 1
+
+19 results - 6 files
+
+index.html:
+  6      <meta name="theme-color" content="#073847" />
+  7:     <meta name="description" content="My4K Limpieza: espacios impecables, tiempo para vivir." />
+  8:     <title>My4K Limpieza | Espacios que respiran</title>
+  9    </head>
+
+package-lock.json:
+  1  {
+  2:   "name": "my4k-limpieza",
+  3    "version": "1.0.0",
+
+  7      "": {
+  8:       "name": "my4k-limpieza",
+  9        "version": "1.0.0",
+
+package.json:
+  1  {
+  2:   "name": "my4k-limpieza",
+  3    "private": true,
+
+dist\index.html:
+  6      <meta name="theme-color" content="#103f3a" />
+  7:     <meta name="description" content="My4K Limpieza: espacios impecables, tiempo para vivir." />
+  8:     <title>My4K Limpieza | Espacios que respiran</title>
+  9      <script type="module" crossorigin src="/assets/index-DBLQEtKV.js"></script>
+
+dist\assets\index-DBLQEtKV.js:
+   2      <header class="topbar">
+   3:       <a class="brand" href="#inicio" aria-label="My4K inicio">
+   4          <span class="brand-mark">M<span>4</span>K</span>
+   5:         <span class="brand-name">MY4K <small>LIMPIEZA</small></span>
+   6        </a>
+
+  37        <section class="statement" id="nosotros">
+  38:         <p class="eyebrow">El estándar My4K</p>
+  39          <h2>Más que limpiar.<br /><em>Devolvemos tiempo.</em></h2>
+
+  59  
+  60:     <footer><div class="footer-brand"><span class="brand-mark">M<span>4</span>K</span><p>Espacios que respiran.<br />Vidas que fluyen.</p></div><div><small>CONTACTO</small><p>hola@my4klimpieza.com<br />+1 (555) 284-KASA</p></div><div><small>SÍGUENOS</small><p>@my4klimpieza</p></div><p class="copyright">© 2024 My4K</p></footer>
+  61      <div class="modal-backdrop" id="booking-modal" aria-hidden="true"><div class="modal"><button class="modal-close" id="close-modal" aria-label="Cerrar">×</button><span class="modal-check">✓</span><p class="eyebrow">Casi listo</p><h2>Reserva tu visita</h2><p class="modal-summary">${i.weekday}, ${i.day} de ${i.month} · ${n}</p><form id="booking-form"><label>Tu nombre<input required name="name" placeholder="¿Cómo te llamamos?" /></label><label>WhatsApp<input required name="phone" placeholder="+1 (555) 000-0000" /></label><label>Tipo de servicio<select name="service"><option>Limpieza residencial</option><option>Limpieza profunda</option><option>Limpieza comercial</option></select></label><button class="button button-dark full-width" type="submit">Solicitar mi cita <span>↗</span></button></form></div></div>
+
+src\main.js:
+  26      <header class="topbar">
+  27:       <a class="brand" href="#inicio" aria-label="My4K inicio">
+  28          <span class="brand-mark">M<span>4</span>K</span>
+  29:         <span class="brand-name">MY4K <small>LIMPIEZA</small></span>
+  30        </a>
+
+  61        <section class="statement" id="nosotros">
+  62:         <p class="eyebrow">El estándar My4K</p>
+  63          <h2>Más que limpiar.<br /><em>Devolvemos tiempo.</em></h2>
+
+  83  
+  84:     <footer><div class="footer-brand"><span class="brand-mark">M<span>4</span>K</span><p>Espacios que respiran.<br />Vidas que fluyen.</p></div><div><small>CONTACTO</small><p>hola@my4klimpieza.com<br />+1 (555) 284-KASA</p></div><div><small>SÍGUENOS</small><p>@my4klimpieza</p></div><p class="copyright">© 2024 My4K</p></footer>
+  85      <div class="modal-backdrop" id="booking-modal" aria-hidden="true"><div class="modal"><button class="modal-close" id="close-modal" aria-label="Cerrar">×</button><span class="modal-check">✓</span><p class="eyebrow">Casi listo</p><h2>Reserva tu visita</h2><p class="modal-summary">${selectedDate.weekday}, ${selectedDate.day} de ${selectedDate.month} · ${selectedTime}</p><form id="booking-form"><label>Tu nombre<input required name="name" placeholder="¿Cómo te llamamos?" /></label><label>WhatsApp<input required name="phone" placeholder="+1 (555) 000-0000" /></label><label>Tipo de servicio<select name="service"><option>Limpieza residencial</option><option>Limpieza profunda</option><option>Limpieza comercial</option></select></label><button class="button button-dark full-width" type="submit">Solicitar mi cita <span>↗</span></button></form></div></div>
